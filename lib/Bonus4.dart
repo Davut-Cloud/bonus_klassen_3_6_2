@@ -16,24 +16,24 @@ class Rectangle {
 }
 
 void main() {
-  Rectangle rechteck = Rectangle(5, 80); // zu Bonus4/1
+  Rectangle rectangle = Rectangle(5, 80); // zu Bonus4/1
 
   // Berechnung bzw. Methode und Ausgabe des Umfangs
-  double umfang = rechteck.calculatescope();
-  print('Der Umfang des Rechtecks beträgt: $umfang');
+  double scope = rectangle.calculatescope();
+  print('Der Umfang des Rechtecks beträgt: $scope');
 
   // Berechnung und Ausgabe der Fläche
-  double flaeche = rechteck.calculatearea();
-  print('Die Fläche des Rechtecks beträgt: $flaeche');
+  double area = rectangle.calculatearea();
+  print('Die Fläche des Rechtecks beträgt: $area');
 
   // Änderung der Kantenlänge x
-  rechteck.x = 120;
+  rectangle.x = 120;
 
   // Berechnung und Ausgabe des neuen Umfangs nach Änderung von x
-  double neuerUmfang = rechteck.calculatescope();
-  print('Der neue Umfang des Rechtecks beträgt: $neuerUmfang');
+  double newscope = rectangle.calculatescope();
+  print('Der neue Umfang des Rechtecks beträgt: $newscope');
 
   // Berechnung und Ausgabe der neuen Fläche nach Änderung von x
-  double neueFlaeche = rechteck.calculatearea();
-  print('Die neue Fläche des Rechtecks beträgt: $neueFlaeche');
+  double newArea = rectangle.calculatearea();
+  print('Die neue Fläche des Rechtecks beträgt: $newArea');
 }
