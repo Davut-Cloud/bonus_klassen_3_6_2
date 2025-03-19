@@ -16,7 +16,7 @@ class Rectangle {
 }
 
 void main() {
-  Rectangle rechteck = Rectangle(5, 80);
+  Rectangle rechteck = Rectangle(5, 80); // zu Bonus4/1
 
   // Berechnung bzw Methode und Ausgabe des Umfangs
   double umfang = rechteck.calculatescope(); //.
@@ -24,5 +24,8 @@ void main() {
 
   // Berechnung und Ausgabe der Fläche
   double flaeche = rechteck.calculatearea();
+  print('Die Fläche des Rechtecks beträgt: $flaeche');
+
+  rechteck.x = 120;
   print('Die Fläche des Rechtecks beträgt: $flaeche');
 }
